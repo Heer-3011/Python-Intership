@@ -1,6 +1,33 @@
-print("Hello")
+# Datatypes 
+#Numeric 
 a=10
-b=20.2
 print(a)
-print(b)
-print("Hello Heer")
+print(type(a))
+
+#Float
+b=20.22
+print(b) 
+print(type(b))
+
+#Complex
+c=2+3j
+print(c)
+print(type(c))
+
+#string
+name="Hello"
+print(name)
+print(type(name))
+
+list=[1,2,3,4]
+print(list)
+print(type(list))
+
+dict={ 'name':'Heer', 'age':21}
+print(dict)
+print(type(dict))
+
+tuple1=(1,"Heer",2,"Shobhana")
+print(tuple1)
+print(type(tuple))
+
