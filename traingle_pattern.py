@@ -18,6 +18,7 @@ for i in range(1,6,1):
     print("\n")
 
 print("Pattern-21\n\n")
+
 k=1
 
 for i in range(1,6,1):
