@@ -1,34 +1,24 @@
-num=1
+for i in range(0,11,1):
+    print(i)
+
+print("\n Printing 10 to 1\n")
+for i in range(10,-1,-1):
+    print(i)
+
+print("\n Printing 1 to 10 and sum of it\n")
 sum=0
-while num<=10:
-    print(num)
-    num+=1
-    sum+=num
-print(f"Sum= {sum}\n")
+for i in range(0,11,1):
+    print(i)
+    sum+=i
+print("sum",sum)
 
-print("\n printing reverse 5 to 0\n")
+print("\n\n Printing table for 5\n")
+a=5
+for i in range(1,10,1):
+    print(f"{a} X {i} = {a*i}")
 
-num=5
-while num>=0:
-    print(num)
-    num-=1
-
-
-print("\n print 1 to 5 and 4 to 1")
-a=1
-while a<5:
-    print(a)
-    a+=1
-
-while a>0:
-    print(a)
-    a-=1
-print("\n print 2 to 10 and 4 to 1")
-a=1
-while a<10:
-    print(a)
-    a+=2
-
-while a>0:
-    print(a)
-    a-=2
+print("\n\n Table from 1 to 10\n\n")
+for i in range(1,10,1):
+    print(f"\nTable of {i}\n\n")
+    for j in range(1,10,1): 
+        print(f"{i} X {j} = {j*i}")
