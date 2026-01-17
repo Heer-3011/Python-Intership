@@ -10,3 +10,4 @@ def traffic_light(light):
 
 light=input("Enter traffic light=")
 print(traffic_light(light))
+                                                                                                                                                
