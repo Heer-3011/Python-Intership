@@ -8,4 +8,4 @@ print("!!!!! Bank withdrawal !!!!!!")
 
 amount=int(input("Enter you bank balance="))
 withdrawal=int(input("Enter withdrawal="))
-print(banking(amount,withdrawal))
+print(banking(amount,withdrawal))   

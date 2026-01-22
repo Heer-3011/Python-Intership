@@ -3,7 +3,6 @@ x=datetime.datetime.now()
 print(x)
 
 #strftime string format time 
-
 #print(f"String formatr time (%A) = {x.strftime("%A")} ")
 
 print(f"strftime(%A)= {x.strftime('%A')}")
