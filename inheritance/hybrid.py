@@ -7,6 +7,7 @@ class b(a):
         print("Method of class B")
 
 class c(a):
+    
     def display_c(self):
         print("Method of class C")
 
